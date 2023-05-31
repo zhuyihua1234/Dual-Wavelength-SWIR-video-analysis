@@ -3,6 +3,7 @@ Image batch/video processing for multiwavelength SWIR imaging
 
 This repository handles post-processing of image sequences/frames aquired by LabView for dual-SWIR imaging. 
 
+"Image_Acquisition.vi": Instrument control of simultaneous dual SWIR image acquisition.
 
 "mass_conversion.m": Convert LabView ".tiff" image sequences to Windows/Mac friendly 16-bit ".tif" images, and delete consecutive frames that duplicate the same wavelength during image acquisition.
 
