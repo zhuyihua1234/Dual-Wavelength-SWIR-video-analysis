@@ -1,5 +1,6 @@
 %Import image
-raw_img = imread("5_577..tif");
+file = uigetfile('*.*');
+raw_img = imread(file);
 grayImage = fliplr(raw_img);
 
 %Draw ROI in imfreehand and get ROI info
